@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/app.css" />
   </head>
 
-  <body>
+  <body id="body">
     <!-- NAVBAR -->
 
     <!-- <nav class="navbar navbar-expand-lg bg-danger bg-gradient navbar-dark"> -->
@@ -552,21 +552,106 @@
         </div>
       </section>
 
-
-
       <!-- Contact -->
-      <section id="contact"></section>
+      <section id="contact" class="container bg-light p-3">
+        <h2 class="display-6 text-danger">CONTACT</h2>
+
+        <article id="form">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus quod reiciendis, maiores aspernatur fugit possimus esse
+            quis doloribus. Sunt, fugit! Optio asperiores nesciunt maiores
+            mollitia nobis natus facilis corporis accusantium!
+          </p>
+          <div class="row g-4 mt-2">
+            <div class="col-md-4">
+              <i class="fas fa-phone fa-2x text-danger"></i>
+              <h4>Telephone</h4>
+              <a href="">+2095678909</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fab fa-whatsapp fa-3x text-danger"></i>
+              <h4>Whatsup</h4>
+              <a href="">+2095678909</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-envelope fa-2x text-danger"></i>
+              <h4>E-mail</h4>
+              <a href="">www.gmail.com</a>
+            </div>
+          </div>
+
+          <form class="row g-3 mt-4">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Enter your subject"
+              />
+            </div>
+
+            <div class="col-12">
+              <textarea
+                type="text"
+                class="form-control"
+                id="comment"
+                placeholder="Enter your comments"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-danger btn-lg">
+                Submit
+              </button>
+            </div>
+          </form>
+        </article>
+
+        <article id="location " class="mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78730.3194481148!2d4.4207885563452365!3d51.92807117602598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b7605f54c47d%3A0x5229bbac955e4b85!2sRotterdam%2C%20Hollanda!5e0!3m2!1str!2str!4v1663183691313!5m2!1str!2str"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen="true"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+      </section>
     </main>
 
     <!-- FOOTER -->
 
-    <footer>
-      <div class="container">
-        <h2>All Rights Reserved 2022</h2>
-      </div>
+    <footer class="bg-dark text-center text-white p-4">
+      <article>
+        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+        <a href="#"> <i class="fab fa-youtube"></i> </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> </a>
+        <a href="#"> <i class="fab fa-instagram"></i> </a>
+      </article>
     </footer>
 
     <!-- UP-BTN -->
+    <a href="#body" class="btn-up">
+      <i class="fas fa-arrow-up"></i>
+    </a>
 
     <!-- SCRIPTS -->
     <script

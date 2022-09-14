@@ -49,15 +49,13 @@
 
 /*! ------------- 4- INSTRUCTORS -------------*/
 
-
-
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
 /*! ----------- 5- COURSES SECTION ----------- */
 section#courses .nav-link.active {
   background-color: var(--red);
 }
-section#courses .nav-link{
+section#courses .nav-link {
   color: white;
 }
 
@@ -65,4 +63,35 @@ section#courses .nav-link{
 
 /** -------------- UP-BUTTON ------------------ */
 
+.btn-up {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  color: white;
+  background-color: #dc3545;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.btn-up:hover {
+  color: black;
+}
+
 /*! --------------- 7- FOOTER ----------------- */
+footer i {
+  font-size: 2rem;
+  color: white;
+  transition: color 1s;
+}
+footer i:hover {
+  color: #dc3545;
+}
+footer a {
+  padding: 0.5rem;
+  text-decoration: none;
+}
